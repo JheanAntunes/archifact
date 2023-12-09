@@ -1,14 +1,14 @@
-import {
-  TypographyList,
-  TypographyListItem
-} from '@/components/typography/typography'
-import { buttonVariants } from '@/components/ui/button'
+import { TypographyListItem } from '@/components/typography/typography'
+import { dataLinksMenuRaiz } from '@/utils/data-links-menu-raiz'
 import Link from 'next/link'
+import MenuMobile from '../menu/mobile/menu-mobile'
+import LinkStyleButton from '../nav/link-style-button'
+import NavLinks from '../nav/nav-links'
 
 function RaizHeader() {
   return (
     <header>
-      <nav className="container flex items-center justify-between gap-5 py-5">
+      <nav className="container flex items-center justify-between gap-5 py-5 md:justify-between">
         <Link href="#" className="flex flex-col font-sans font-medium">
           <span className="bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-sm text-transparent lg:transition-colors lg:hover:bg-gradient-to-l">
             Archifact
@@ -17,57 +17,26 @@ function RaizHeader() {
             Architects
           </span>
         </Link>
-        <TypographyList>
-          <TypographyListItem className="flex gap-5 font-sans font-medium text-zinc-50">
-            <Link href="#">Home</Link>
-            <Link
-              href="#"
-              className="text-zinc-400 lg:transition-colors lg:hover:text-zinc-50"
-            >
-              Working Process
-            </Link>
-            <Link
-              href="#"
-              className="text-zinc-400 lg:transition-colors lg:hover:text-zinc-50"
-            >
-              About Us
-            </Link>
-            <Link
-              href="#"
-              className="text-zinc-400 lg:transition-colors lg:hover:text-zinc-50"
-            >
-              Projects
-            </Link>
-            <Link
-              href="#"
-              className="text-zinc-400 lg:transition-colors lg:hover:text-zinc-50"
-            >
-              Services
-            </Link>
-            <Link
-              href="#"
-              className="text-zinc-400 lg:transition-colors lg:hover:text-zinc-50"
-            >
-              Blog
-            </Link>
-            <Link
-              href="#"
-              className="text-zinc-400 lg:transition-colors lg:hover:text-zinc-50"
-            >
-              Contact Us
-            </Link>
-          </TypographyListItem>
-        </TypographyList>
-        <Link
+        <MenuMobile>
+          <NavLinks
+            dataLinks={dataLinksMenuRaiz}
+            className="flex-col md:hidden"
+          >
+            <TypographyListItem>
+              <LinkStyleButton
+                href="#"
+                className="flex w-full"
+                variant="outline"
+              />
+            </TypographyListItem>
+          </NavLinks>
+        </MenuMobile>
+        <NavLinks dataLinks={dataLinksMenuRaiz} className="hidden md:flex" />
+        <LinkStyleButton
           href="#"
-          className={buttonVariants({
-            variant: 'outline',
-            className:
-              'rounded-sm bg-transparent font-sans font-medium text-zinc-50'
-          })}
-        >
-          Get a Quote
-        </Link>
+          className="hidden md:inline-flex"
+          variant="outline"
+        />
       </nav>
     </header>
   )
