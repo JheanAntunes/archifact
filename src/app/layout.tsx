@@ -1,4 +1,4 @@
-import { poppins, roboto } from '@/components/assets/fontes'
+import { poppins, roboto } from '@/components/assets/font/fontes'
 import RaizHeader from '@/components/layout/header/raiz-header'
 import type { Metadata } from 'next'
 import '../styles/globals.css'
