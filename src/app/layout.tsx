@@ -1,8 +1,7 @@
+import { poppins, roboto } from '@/components/assets/fontes'
+import RaizHeader from '@/components/layout/header/raiz-header'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import '../styles/globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +15,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`min-h-screen bg-zinc-950 font-sans antialiased ${poppins.variable}  ${roboto.variable}`}
+      >
+        <RaizHeader />
+        {children}
+      </body>
     </html>
   )
 }
