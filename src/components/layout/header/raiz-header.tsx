@@ -27,7 +27,9 @@ function RaizHeader() {
                 href="#"
                 className="flex w-full"
                 variant="outline"
-              />
+              >
+                Get a Quote
+              </LinkStyleButton>
             </TypographyListItem>
           </NavLinks>
         </MenuMobile>
@@ -36,7 +38,9 @@ function RaizHeader() {
           href="#"
           className="hidden md:inline-flex"
           variant="outline"
-        />
+        >
+          Get a Quote
+        </LinkStyleButton>
       </nav>
     </header>
   )
