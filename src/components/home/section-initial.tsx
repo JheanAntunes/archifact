@@ -1,5 +1,5 @@
 import ImgSala from '@/components/assets/img-sala.jpg'
-import { ArrowLeftIcon, ArrowRightIcon } from 'lucide-react'
+import { ArrowLeftIcon, ArrowRightIcon } from '@radix-ui/react-icons'
 import Image from 'next/image'
 import { TypographyH1, TypographyP } from '../typography/typography'
 import { Button } from '../ui/button'
