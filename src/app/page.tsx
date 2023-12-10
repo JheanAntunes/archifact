@@ -1,9 +1,11 @@
 import SectionInitial from '@/components/home/section-initial'
+import SectionQuality from '@/components/home/section-quality/section-quality'
 
 export default function Home() {
   return (
-    <main className="my-8">
+    <main className="my-8 flex flex-col gap-8">
       <SectionInitial />
+      <SectionQuality />
     </main>
   )
 }
