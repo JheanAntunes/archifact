@@ -1,9 +1,9 @@
-import ImgSalaCozinha from '@/components/assets/img-sala-cozinha.jpg'
-import ImgSalaLazer from '@/components/assets/img-sala-lazer.jpg'
 import { TypographyH2, TypographyP } from '@/components/typography/typography'
 import { Button } from '@/components/ui/button'
 import { ArrowRightIcon } from '@radix-ui/react-icons'
-import Image from 'next/image'
+import SectionImagesOneColumn from './section-images-first-column'
+import SectionImagesSecondColumn from './section-images-second-column'
+import SectionImagesThreeColumn from './section-images-three.column'
 
 function SectionProjects() {
   return (
@@ -21,42 +21,9 @@ function SectionProjects() {
             </Button>
           </div>
         </div>
-        <div className="grid grid-cols-[2fr_1fr] gap-8">
-          <div className="flex flex-col gap-3">
-            <div className="relative h-80 w-full overflow-hidden rounded">
-              <Image
-                src={ImgSalaCozinha}
-                alt="Imagem que mostra a sala e a cozinha da casa."
-                fill
-                sizes="100vw"
-                className="object-cover"
-              />
-            </div>
-            <Button className="w-fit gap-1 font-sans" variant="ghost">
-              Flor plan Design 2D{' '}
-              <div className="flex">
-                <ArrowRightIcon />
-              </div>{' '}
-            </Button>
-          </div>
-          <div className="flex flex-col gap-3">
-            <div className="relative h-80 w-full overflow-hidden rounded">
-              <Image
-                src={ImgSalaLazer}
-                alt="Imagem que mostra a sala e parte de lazer da casa."
-                fill
-                sizes="100vw"
-                className="object-cover"
-              />
-            </div>
-            <Button className="w-fit gap-1 font-sans" variant="ghost">
-              Exterior Design 3D{' '}
-              <div className="flex">
-                <ArrowRightIcon />
-              </div>{' '}
-            </Button>
-          </div>
-        </div>
+        <SectionImagesOneColumn />
+        <SectionImagesSecondColumn />
+        <SectionImagesThreeColumn />
       </div>
     </section>
   )
