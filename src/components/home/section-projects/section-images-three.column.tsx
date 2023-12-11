@@ -3,7 +3,7 @@ import ImgSalaLazer from '@/components/assets/img-sala-lazer.jpg'
 import { Button } from '@/components/ui/button'
 import { ArrowRightIcon } from '@radix-ui/react-icons'
 import Image from 'next/image'
-import ImageContainer from './ImageContainer'
+import ImageContainer from '../../ui/ImageContainer'
 import {
   GridContainerColumn,
   GridContainerTwoCols
