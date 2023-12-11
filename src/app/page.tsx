@@ -1,3 +1,4 @@
+import SectionExpertise from '@/components/home/section-expertise/section-expertise'
 import SectionInitial from '@/components/home/section-initial'
 import SectionProjects from '@/components/home/section-projects/section-projects'
 import SectionQuality from '@/components/home/section-quality/section-quality'
@@ -8,6 +9,7 @@ export default function Home() {
       <SectionInitial />
       <SectionQuality />
       <SectionProjects />
+      <SectionExpertise />
     </main>
   )
 }
