@@ -76,7 +76,7 @@ function SectionDiscoverOurProjects() {
           </SectionDiscoverCardContent>
         </SectionDiscoverCard>
       </SectionDiscoverContainerCard>
-      <Button className="mx-auto w-full max-w-xs gap-1 bg-zinc-800 font-sans font-medium text-zinc-50 hover:text-zinc-50">
+      <Button className="mx-auto w-full max-w-xs gap-1 rounded bg-zinc-800 font-sans font-medium text-zinc-50 hover:text-zinc-50">
         Read More <ArrowRightIcon />
       </Button>
     </section>
