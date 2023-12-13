@@ -1,3 +1,4 @@
+import SectionDiscoverOurProjects from '@/components/home/section-discover-our-projects/section-discover-our-projects'
 import SectionExpertise from '@/components/home/section-expertise/section-expertise'
 import SectionInitial from '@/components/home/section-initial'
 import SectionInternationallyImplemented from '@/components/home/section-internationally-implemented/section-internationally-implemented'
@@ -16,6 +17,7 @@ export default function Home() {
       <SectionInternationallyImplemented />
       <SectionMeetOurTeam />
       <SectionOurClientsSaying />
+      <SectionDiscoverOurProjects />
     </main>
   )
 }
