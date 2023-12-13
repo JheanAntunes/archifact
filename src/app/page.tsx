@@ -1,3 +1,4 @@
+import SectionConsult from '@/components/home/section-consult/section-consult'
 import SectionDiscoverOurProjects from '@/components/home/section-discover-our-projects/section-discover-our-projects'
 import SectionExpertise from '@/components/home/section-expertise/section-expertise'
 import SectionInitial from '@/components/home/section-initial'
@@ -18,6 +19,7 @@ export default function Home() {
       <SectionMeetOurTeam />
       <SectionOurClientsSaying />
       <SectionDiscoverOurProjects />
+      <SectionConsult />
     </main>
   )
 }
