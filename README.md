@@ -1,3 +1,20 @@
+# Archifact
+Web UI criado por [Youthmind](https://dribbble.com/shots/23205938-Archifact-Web-UI-Redesign-By-Youthmind)
+## lista destacado do que pratiquei
+- TailwindCss
+  - lib TailwindCss Merge (resolver conflitos de classes)
+  - lib TailwindCss Clsx (classes condicionais)
+  - CVA biblioteca para tailwind (variações de estilos para componente)
+- Shadcn
+- Pattern composition react
+- Pattern reaproveitamento de components
+- Responsividade
+- Next Image
+- Next Font com tailwindCss
+- Semantic HTML
+- Semantic Commits [Aprendendo-padrao-de-commits](https://github.com/iuricode/padroes-de-commits)
+- Eslint & Prettier
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
