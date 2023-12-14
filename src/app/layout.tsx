@@ -1,4 +1,5 @@
 import { poppins, roboto } from '@/components/assets/font/fontes'
+import Footer from '@/components/layout/footer/Footer'
 import RaizHeader from '@/components/layout/header/raiz-header'
 import type { Metadata } from 'next'
 import '../styles/globals.css'
@@ -20,6 +21,7 @@ export default function RootLayout({
       >
         <RaizHeader />
         {children}
+        <Footer />
       </body>
     </html>
   )
