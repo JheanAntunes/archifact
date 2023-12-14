@@ -7,7 +7,7 @@ import { Button } from '../ui/button'
 function SectionInitial() {
   return (
     <section className="container flex flex-col gap-5">
-      <TypographyH1 className="flex flex-col text-9xl text-zinc-50">
+      <TypographyH1 className="flex flex-col text-3xl text-zinc-50 sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
         <span className="leading-normal">Creating Transformative</span>
         <span className="bg-gradient-to-r from-zinc-400 to-slate-200 bg-clip-text leading-normal text-transparent">
           Architectural Designs
