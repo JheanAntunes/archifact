@@ -15,7 +15,7 @@ import {
   SectionDiscoverContainerCard
 } from './section-discover-card'
 
-function SectionDiscoverOurProjects() {
+function SectionDiscoverOurDesign() {
   return (
     <section className="container flex flex-col gap-8">
       <div className="flex flex-col gap-1 text-center">
@@ -29,7 +29,13 @@ function SectionDiscoverOurProjects() {
       <SectionDiscoverContainerCard>
         <SectionDiscoverCard>
           <ImageContainer className="h-full">
-            <Image src={ImgSala} alt="imagem da casa na parte da sala." />
+            <Image
+              src={ImgSala}
+              alt="imagem da casa na parte da sala."
+              fill
+              className="object-cover"
+              sizes="100vw"
+            />
           </ImageContainer>
           <SectionDiscoverCardContent>
             <SectionDiscoverCardBadge>Design</SectionDiscoverCardBadge>
@@ -47,6 +53,9 @@ function SectionDiscoverOurProjects() {
             <Image
               src={ImgSalaCozinha}
               alt="imagem da casa na parte da cozinha."
+              fill
+              className="object-cover"
+              sizes="100vw"
             />
           </ImageContainer>
           <SectionDiscoverCardContent>
@@ -60,9 +69,15 @@ function SectionDiscoverOurProjects() {
             </SectionDiscoverCardDescription>
           </SectionDiscoverCardContent>
         </SectionDiscoverCard>
-        <SectionDiscoverCard>
+        <SectionDiscoverCard className="col-span-full lg:col-span-1">
           <ImageContainer className="h-full">
-            <Image src={ImgSalaLazer} alt="imagem da casa na parte da Lazer." />
+            <Image
+              src={ImgSalaLazer}
+              alt="imagem da casa na parte da Lazer."
+              fill
+              className="object-cover"
+              sizes="100vw"
+            />
           </ImageContainer>
           <SectionDiscoverCardContent>
             <SectionDiscoverCardBadge>Design</SectionDiscoverCardBadge>
@@ -83,4 +98,4 @@ function SectionDiscoverOurProjects() {
   )
 }
 
-export default SectionDiscoverOurProjects
+export default SectionDiscoverOurDesign

@@ -46,10 +46,10 @@ function SectionExpertise() {
           </CardExpertise>
         ))}
       </ContainerCardExpertise>
-      <div className="mx-auto mt-8 w-full max-w-sm">
+      <div className="mx-auto w-full max-w-xs">
         <Button
           variant="secondary"
-          className="w-80 gap-1 rounded bg-zinc-800 font-sans text-zinc-200 transition-colors hover:bg-zinc-950"
+          className="mx-auto mt-8 w-full max-w-xs gap-1 rounded bg-zinc-800 font-sans text-zinc-200 transition-colors hover:bg-zinc-950"
         >
           Explore Our Services <ArrowRightIcon />
         </Button>

@@ -8,7 +8,13 @@ export const SectionDiscoverContainerCard = ({
   ...restProps
 }: React.ComponentProps<'div'>) => {
   return (
-    <div className={cn('grid grid-cols-3 gap-8', className)} {...restProps}>
+    <div
+      className={cn(
+        'grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3',
+        className
+      )}
+      {...restProps}
+    >
       {children}
     </div>
   )
@@ -81,7 +87,10 @@ export const SectionDiscoverCardDescription = ({
   ...restProps
 }: React.ComponentProps<'p'>) => {
   return (
-    <TypographyP className={cn('text-zinc-400', className)} {...restProps}>
+    <TypographyP
+      className={cn('w-full max-w-xl text-zinc-400', className)}
+      {...restProps}
+    >
       {children}
     </TypographyP>
   )

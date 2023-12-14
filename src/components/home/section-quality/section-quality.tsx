@@ -9,12 +9,12 @@ function SectionQuality() {
         <TypographyH2 className="text-zinc-50">
           Why we are Unique From Others
         </TypographyH2>
-        <TypographyP className="w-full max-w-[464px] text-center text-zinc-50">
+        <TypographyP className="w-full text-left text-zinc-50 md:text-center xl:text-lg">
           At ArchitectsArchiFacts. were not just designers - were creators of
           meanigful spaces that transcend expectations
         </TypographyP>
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <CardQuality
           className="group border-zinc-800 lg:transition-colors lg:hover:border-zinc-50"
           Icon={
@@ -28,7 +28,7 @@ function SectionQuality() {
             </span>
           }
           Content={
-            <TypographyP className="text-center text-zinc-400 lg:transition-colors lg:group-hover:text-zinc-200">
+            <TypographyP className="text-left text-zinc-400 sm:text-center lg:transition-colors lg:group-hover:text-zinc-200">
               Our team brings fresh perspectives and innovative thinking to
               every project, ensuring your spaces stands out with unique design
               solutions.
@@ -47,14 +47,14 @@ function SectionQuality() {
             </span>
           }
           Content={
-            <TypographyP className="text-center text-zinc-400">
+            <TypographyP className="text-left text-zinc-400 sm:text-center">
               We take pride in delivering projects on time, ensuring that your
               space is ready for you to enjoy as planned.
             </TypographyP>
           }
         />
         <CardQuality
-          className="group border-zinc-800 lg:transition-colors lg:hover:border-zinc-50"
+          className="group col-span-full border-zinc-800 lg:col-span-1 lg:transition-colors lg:hover:border-zinc-50"
           Icon={
             <div className="mb-5 flex w-full justify-center">
               <SmileIcon width={80} height={80} />
@@ -66,7 +66,7 @@ function SectionQuality() {
             </span>
           }
           Content={
-            <TypographyP className="text-center text-zinc-400 lg:transition-colors lg:group-hover:text-zinc-200">
+            <TypographyP className="text-left text-zinc-400 md:text-center lg:transition-colors lg:group-hover:text-zinc-200">
               Our team brings fresh perspectives and innovative thinking to
               every project, ensuring your spaces stands out with unique design
               solutions.

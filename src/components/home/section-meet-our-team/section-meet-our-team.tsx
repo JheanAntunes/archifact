@@ -18,7 +18,7 @@ function SectionMeetOurTeam() {
   return (
     <section className="container flex flex-col gap-8">
       <GridContainerCardMeetOurTeam>
-        <div className="col-start-2 col-end-3">
+        <div className="col-span-full lg:col-start-2 lg:col-end-3">
           <TypographyH2 className="text-center text-zinc-50">
             Meet Our Team
           </TypographyH2>
@@ -28,7 +28,7 @@ function SectionMeetOurTeam() {
           </TypographyP>
         </div>
       </GridContainerCardMeetOurTeam>
-      <GridContainerCardMeetOurTeam>
+      <GridContainerCardMeetOurTeam className="grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <CardMeetOurTeam>
           <ImageContainer>
             <Image
@@ -67,7 +67,7 @@ function SectionMeetOurTeam() {
             </CardMeetOurTeamContentDescription>
           </CardMeetOurTeamContent>
         </CardMeetOurTeam>
-        <CardMeetOurTeam>
+        <CardMeetOurTeam className="col-span-full md:col-span-1">
           <ImageContainer>
             <Image
               src={ImgPersonRiaz}

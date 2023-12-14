@@ -30,7 +30,7 @@ function ContainerContent({
       exit="exit"
       variants={motionContainerVariants}
       className={cn(
-        'fixed inset-y-0 left-0 w-full max-w-xs border-r border-solid border-r-zinc-800 bg-zinc-950/90 px-5 pb-5 pt-[58px] text-zinc-50 transition-all duration-500 ease-linear',
+        'container fixed inset-y-0 left-0 w-full max-w-xs border-r border-solid border-r-zinc-800 bg-zinc-950/90 px-5 pb-5 pt-[58px] text-zinc-50 transition-all duration-500 ease-linear',
         className
       )}
       {...props}

@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer className="bg-zinc-50">
       <div className="container flex flex-col gap-8 py-8">
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-0">
           <div className="flex flex-col gap-3">
             <TypographyH2>Get in Touch</TypographyH2>
             <span className="text-zinc-800">Hello@Archifactarchitects.com</span>
@@ -58,7 +58,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
           <span className="font-roboto text-sm">
             &copy;2023 ArchifactArchitects.All rights reserved.
           </span>

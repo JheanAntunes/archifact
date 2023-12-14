@@ -1,5 +1,5 @@
 import SectionConsult from '@/components/home/section-consult/section-consult'
-import SectionDiscoverOurProjects from '@/components/home/section-discover-our-projects/section-discover-our-projects'
+import SectionDiscoverOurDesign from '@/components/home/section-discover-design/section-discover-our-design'
 import SectionExpertise from '@/components/home/section-expertise/section-expertise'
 import SectionInitial from '@/components/home/section-initial'
 import SectionInternationallyImplemented from '@/components/home/section-internationally-implemented/section-internationally-implemented'
@@ -18,7 +18,7 @@ export default function Home() {
       <SectionInternationallyImplemented />
       <SectionMeetOurTeam />
       <SectionOurClientsSaying />
-      <SectionDiscoverOurProjects />
+      <SectionDiscoverOurDesign />
       <SectionConsult />
     </main>
   )

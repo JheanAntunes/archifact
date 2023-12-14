@@ -10,7 +10,7 @@ function Fundo({ children, className, ...props }: HTMLMotionProps<'div'>) {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       className={cn(
-        'fixed inset-0 bg-zinc-950/20 backdrop-blur-sm transition-all duration-300 ease-linear',
+        'fixed inset-0 z-20 bg-zinc-950/20 backdrop-blur-sm transition-all duration-300 ease-linear',
         className
       )}
       {...props}

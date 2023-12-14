@@ -30,7 +30,7 @@ export const ContainerCardInternationallyImplemented = ({
   return (
     <div
       className={cn(
-        'mt-8 grid grid-cols-3 gap-8 rounded bg-zinc-200/60 p-8 shadow-md',
+        'mt-8 grid grid-cols-1 gap-8 rounded bg-zinc-200/60 p-8 shadow-md sm:grid-cols-3',
         className
       )}
       {...restProps}
@@ -46,7 +46,7 @@ export const CardInternationallyImplemented = ({
   ...restProps
 }: React.ComponentProps<'div'>) => {
   return (
-    <div className={cn('', className)} {...restProps}>
+    <div className={cn('text-center', className)} {...restProps}>
       {children}
     </div>
   )

@@ -40,7 +40,10 @@ export const ContainerCardExpertise = ({
 }: React.ComponentProps<'div'>) => {
   return (
     <div
-      className={cn('mt-8 grid grid-cols-3 justify-center gap-8', className)}
+      className={cn(
+        'mt-8 grid grid-cols-1 justify-center gap-8 sm:grid-cols-2 lg:grid-cols-3',
+        className
+      )}
       {...restProps}
     >
       {children}
@@ -66,7 +69,7 @@ export const CardExpertiseTitle = ({
   ...restProps
 }: React.ComponentProps<'h3'>) => {
   return (
-    <TypographyH3 className={cn('', className)} {...restProps}>
+    <TypographyH3 className={cn('md', className)} {...restProps}>
       {children}
     </TypographyH3>
   )

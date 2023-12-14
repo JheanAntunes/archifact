@@ -19,7 +19,9 @@ function CardQuality({
       <Card className={cn('bg-transparent text-zinc-50', className)} {...props}>
         <CardHeader>
           {Icon}
-          <CardTitle className="text-center">{TitleSpan}</CardTitle>
+          <CardTitle className="text-center text-xl md:text-2xl">
+            {TitleSpan}
+          </CardTitle>
         </CardHeader>
         <CardContent>{Content}</CardContent>
       </Card>

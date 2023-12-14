@@ -11,7 +11,7 @@ function FooterLinks() {
         <TypographyListItem>
           <Link
             href="#"
-            className="font-sans font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
+            className="font-sans text-sm font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
           >
             Home
           </Link>
@@ -19,7 +19,7 @@ function FooterLinks() {
         <TypographyListItem>
           <Link
             href="#"
-            className="font-sans font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
+            className="font-sans text-sm font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
           >
             About Us
           </Link>
@@ -27,7 +27,7 @@ function FooterLinks() {
         <TypographyListItem>
           <Link
             href="#"
-            className="font-sans font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
+            className="font-sans text-sm font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
           >
             Portfolio
           </Link>
@@ -35,7 +35,7 @@ function FooterLinks() {
         <TypographyListItem>
           <Link
             href="#"
-            className="font-sans font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
+            className="font-sans text-sm font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
           >
             Services
           </Link>
@@ -45,7 +45,7 @@ function FooterLinks() {
         <TypographyListItem>
           <Link
             href="#"
-            className="font-sans font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
+            className="font-sans text-sm font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
           >
             Blog
           </Link>
@@ -53,7 +53,7 @@ function FooterLinks() {
         <TypographyListItem>
           <Link
             href="#"
-            className="font-sans font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
+            className="font-sans text-sm font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
           >
             Working Process
           </Link>
@@ -61,7 +61,7 @@ function FooterLinks() {
         <TypographyListItem>
           <Link
             href="#"
-            className="font-sans font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
+            className="font-sans text-sm font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
           >
             Contact Us
           </Link>
@@ -71,7 +71,7 @@ function FooterLinks() {
         <TypographyListItem>
           <Link
             href="#"
-            className="font-sans font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
+            className="font-sans text-sm font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
           >
             Terms
           </Link>
@@ -79,7 +79,7 @@ function FooterLinks() {
         <TypographyListItem>
           <Link
             href="#"
-            className="font-sans font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
+            className="font-sans text-sm font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
           >
             Privacy
           </Link>
@@ -87,7 +87,7 @@ function FooterLinks() {
         <TypographyListItem>
           <Link
             href="#"
-            className="font-sans font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
+            className="font-sans text-sm font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
           >
             Cookies
           </Link>
@@ -95,7 +95,7 @@ function FooterLinks() {
         <TypographyListItem>
           <Link
             href="#"
-            className="font-sans font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
+            className="font-sans text-sm font-medium text-zinc-800 lg:hover:text-blue-500 lg:hover:underline"
           >
             Licenses
           </Link>

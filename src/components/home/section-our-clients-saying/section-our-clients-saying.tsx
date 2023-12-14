@@ -10,7 +10,7 @@ function SectionOurClientsSaying() {
   return (
     <section className="bg-zinc-50">
       <div className="container my-8 flex flex-col gap-8">
-        <div>
+        <div className="flex flex-col gap-2">
           <TypographyH2>What Our Clients Saying</TypographyH2>
           <TypographyP className="text-zinc-800">
             Real Stories of our Architectural Excellence
@@ -49,7 +49,7 @@ function SectionOurClientsSaying() {
               </Button>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
             <ImageContainer>
               <Image
                 src={ImgClientDepoimento}

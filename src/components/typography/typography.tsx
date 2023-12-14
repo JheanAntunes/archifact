@@ -25,7 +25,10 @@ export function TypographyH2({
 }: React.ComponentProps<'h2'>) {
   return (
     <h2
-      className={cn('font-sans text-3xl font-medium tracking-tight', className)}
+      className={cn(
+        'font-sans text-2xl font-medium tracking-tight sm:text-3xl md:text-4xl',
+        className
+      )}
       {...props}
     >
       {children}
@@ -40,7 +43,10 @@ export function TypographyH3({
 }: React.ComponentProps<'h3'>) {
   return (
     <h3
-      className={cn('font-sans text-2xl font-medium tracking-tight', className)}
+      className={cn(
+        'font-sans text-xl font-medium tracking-tight md:text-2xl',
+        className
+      )}
       {...props}
     >
       {children}

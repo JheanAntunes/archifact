@@ -1,11 +1,11 @@
 import { cn } from '@/lib/utils'
 import { VariantProps, cva } from 'class-variance-authority'
 
-const GridContainerTwoColsVariantsSide = cva('grid gap-8', {
+const GridContainerTwoColsVariantsSide = cva('grid grid-cols-1 gap-8', {
   variants: {
     variant: {
-      columnLeftLarger: 'grid-cols-[2fr_1fr]',
-      columnRightLarger: 'grid-cols-[1fr_2fr]'
+      columnLeftLarger: 'md:grid-cols-[2fr_1fr]',
+      columnRightLarger: 'md:grid-cols-[1fr_2fr]'
     }
   },
   defaultVariants: {

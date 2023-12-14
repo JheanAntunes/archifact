@@ -17,12 +17,12 @@ function SectionInternationallyImplemented() {
           <span>Internationally</span>
           <span>Implemented Projects</span>
         </TypographyH2>
-        <div className="mt-1 flex items-center justify-between">
+        <div className="mt-1 flex flex-col justify-between gap-8 md:flex-row md:items-center md:gap-0">
           <TypographyP className="w-full max-w-md text-zinc-800">
             Crafting Spaces that Reflect Your Vision and Lifestyle of your
             dreams and aspirations
           </TypographyP>
-          <Button className="gap-1 rounded bg-zinc-950 font-sans text-zinc-50">
+          <Button className="mx-auto w-full max-w-xs gap-1 rounded bg-zinc-950 font-sans text-zinc-50 md:mx-0 md:w-fit md:max-w-none">
             Hire Us On Upwork <ArrowRightIcon />
           </Button>
         </div>
